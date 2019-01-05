@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: #ffffff;
+    color: #333;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    line-height: 1.5em;
+    margin: 0;
+}
+/* top navigation menu */
+nav.top-menu {
+    width: 100%;
+    background-color: #fafafb;
+    height: 50px;
+}
+nav.top-menu .container{
+    display: flex;
+    margin: 0 50px;
+    height: inherit;
+    align-items: center;
+}
+nav.top-menu div#logo a{
+    text-decoration: none;
+}
+nav.top-menu div.search-bar{
+    margin-left: auto;
+}
+nav.top-menu div#auth-btns {
+    margin-left: auto;
+}
+nav.top-menu div#auth-btns button{
+    background-color: #0095ff;
+    border: 0;
+    padding: 5px;
+    color: #ffffff;
+}
+nav.top-menu div#auth-btns button:hover{
+    cursor: pointer;   
+}
+nav.top-menu div#auth-btns a{
+    text-decoration: none;
+}
+/* Header component styles */
+header{
+    height: 300px;
+    background-color: #0095ff;
+}
+header .header-content{
+    height: inherit;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+header div.promo{
+    color: #ffffff;
+    text-align: center;
+}
+header div.promo .header-title{
+    font-size: 2rem;
+}
+header div.promo button{
+    border: 1px solid #e6dede;
+    background: transparent;
+    color: #e4dddd;
+    padding: 10px;
+}
+header div.promo button:hover{
+    cursor: pointer;
+}
