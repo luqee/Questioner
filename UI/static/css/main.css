@@ -205,6 +205,7 @@ footer{
 .meetup-header{
     display: flex;
     padding-right: 50px;
+    margin-bottom: 20px;
 }
 .meetup-header .rsvp-area{
     margin-left: auto;
