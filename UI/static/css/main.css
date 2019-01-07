@@ -184,6 +184,9 @@ footer{
 .meetup-container .meetup-info{
     display: flex;
 }
+/* .meetup-container .rsvp-area{
+    display: flex;
+} */
 .meetup-info .meetup{
     flex-basis: 70%;
 }
@@ -198,4 +201,14 @@ footer{
 .meetup-container .meetup-info img {
     width: 100%;
     height: 300px;
+}
+.meetup-header{
+    display: flex;
+    padding-right: 50px;
+}
+.meetup-header .rsvp-area{
+    margin-left: auto;
+}
+.meetup-header .rsvp-area button{
+    width: 100px;
 }
