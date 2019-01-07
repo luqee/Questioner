@@ -1,12 +1,28 @@
 *{
     box-sizing: border-box;
 }
+html{
+    height: 100%;
+}
 body {
     background-color: #ffffff;
     color: #333;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     line-height: 1.5em;
     margin: 0;
+    height: inherit;
+}
+.wrap{
+    height: inherit;;
+    display: flex;
+    flex-direction: column;
+}
+.wrap div.content{
+    flex:1 0 auto;
+}
+.wrap footer{
+    flex-shrink: 0;
+    /* margin/ */
 }
 /* top navigation menu */
 nav.top-menu {
@@ -61,13 +77,13 @@ header div.promo{
 header div.promo .header-title{
     font-size: 2rem;
 }
-header div.promo button{
-    border: 1px solid #e6dede;
-    background: transparent;
-    color: #e4dddd;
-    padding: 10px;
+button{
+    background-color: #0095ff;
+    border: 0;
+    padding: 5px;
+    color: #ffffff;
 }
-header div.promo button:hover{
+button:hover{
     cursor: pointer;
 }
 /* Landing page content area */
@@ -127,4 +143,26 @@ footer{
 }
 .footer-content p{
     margin: 0 auto;
+}
+/*  */
+.user-register-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user-register-content .form-container{
+    border: 1px solid #0095ff;
+    padding: 10px;
+    border-radius: 5px;
+}
+.user-register-content form .form-row{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+.user-register-content form input{
+    padding: 5px;
+}
+.user-register-content a{
+    text-decoration: none;
 }
