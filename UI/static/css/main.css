@@ -145,24 +145,24 @@ footer{
     margin: 0 auto;
 }
 /*  */
-.user-register-content{
+.auth-page{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.user-register-content .form-container{
+.form-container{
     border: 1px solid #0095ff;
     padding: 10px;
     border-radius: 5px;
 }
-.user-register-content form .form-row{
+.auth-page form .form-row{
     display: flex;
     flex-direction: column;
     margin-bottom: 5px;
 }
-.user-register-content form input{
+.auth-page form input{
     padding: 5px;
 }
-.user-register-content a{
+.auth-page a{
     text-decoration: none;
 }
