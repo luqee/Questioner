@@ -70,3 +70,61 @@ header div.promo button{
 header div.promo button:hover{
     cursor: pointer;
 }
+/* Landing page content area */
+.landing-content{
+    display: flex;
+    margin: 0 50px;
+    padding-top: 20px;
+}
+
+.landing-content .tags{
+    flex-basis: 20%;
+}
+.landing-content .tags .tags-container{
+    display: flex;
+    flex-direction: column;
+}
+.landing-content .tags h3{
+    margin: 0 auto;
+}
+.landing-content .tags ul{
+    list-style-type: none;
+}
+.landing-content .tags ul li{
+    border-bottom: 1px solid #0095ff;
+}
+.landing-content .meetups{
+    flex-basis: 80%;
+    padding-left: 15px;
+}
+.landing-content .meetups .meetups-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.landing-content .meetups .meetup{
+    flex-basis: 33%;
+    margin-bottom: 5px;
+    border: 1px solid #0095ff;
+}
+.landing-content .meetups .meetup img{
+    width: 100%;
+    height: 150px;
+}
+.landing-content .meetups .meetup .details{
+    padding-left: 5px;
+}
+/* Footer area */
+footer{
+    background-color: #0095ff;
+    height: 100px;
+}
+
+.footer-content{
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+.footer-content p{
+    margin: 0 auto;
+}
