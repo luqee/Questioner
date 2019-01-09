@@ -279,3 +279,21 @@ footer{
     width: fit-content;
     margin: 0 auto;
 }
+
+.profile-header .container{
+    background-color: #0095ff;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+.profile-header .info{
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+    color: #fff;
+}
+.info .details{
+    margin-left: 20px;
+    font-size: 1.35em;
+    line-height: 1.5em;
+}
