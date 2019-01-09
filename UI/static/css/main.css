@@ -248,4 +248,34 @@ footer{
 .question .header span{
     display: block;
     font-size: 85%;
+    margin-bottom: 5px;
+}
+.question .comments{
+    margin-left: 20px;
+    border-left: 2px solid #0095ff;
+    padding-left: 20px;
+}
+.question .comments span{
+    font-weight: bold;
+}
+
+.post-comment .container{
+    display: flex;
+    flex-direction: column;
+    /* width: 70%; */
+}
+.post-comment span{
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+.post-comment textarea{
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.post-comment button{
+    width: fit-content;
+    margin: 0 auto;
 }
