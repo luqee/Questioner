@@ -318,6 +318,7 @@ footer{
 .admin-dash{
     display: flex;
     width: 75%;
+    margin-bottom: 20px;
     /* margin: 0 auto; */
 }
 .admin-dash .side-menu{
@@ -359,4 +360,16 @@ footer{
 .meetup .actions{
     margin-left: auto;
     align-self: center;
+}
+.meetup-create {
+    width: 500px;
+    margin: 0 auto;
+}
+.meetup-create form .form-row{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+.meetup-create form input{
+    padding: 5px;
 }
