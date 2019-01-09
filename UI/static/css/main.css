@@ -332,6 +332,7 @@ footer{
 .admin-dash .menu a{
     text-decoration: none;
     display: block;
+    color: #fff;
 }
 .admin-dash .meetups{
     flex-basis: 75%;
