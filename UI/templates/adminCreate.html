@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Questioner</title>
+        <link rel="stylesheet" href="../static/css/main.css">
+        <link rel="stylesheet" href="../static/css/fontawesome-all.min.css">
+    </head>
+    <body>
+      <div class="wrap">
+        <nav class="top-menu">
+            <div class="container">
+                <div id="logo"> <a href="index.html">Questioner</a></div>
+                <div class="search-bar">
+                    <input type="texy" placeholder="Search meetups">
+                </div>
+                <div id="auth-btns">
+                    <a href="userRegister.html"> <button>Signup</button> </a>
+                    <a href="userLogin.html"> <button>Login</button> </a>
+                </div>
+            </div>
+        </nav>
+        <div class="content admin-dash">
+            <div class="side-menu">
+                <div class="menu">
+                    <ul>
+                        <li><a href="adminDash.html">Home</a></li>
+                        <li><a href="adminCreate.html">Create Meetup</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="meetup-create">
+                <h3>Create Meetup</h3>
+                <div class="form-container">
+                    <form action="" id="signup-form">
+                        <div class="form-row">
+                            <label for="title">Title</label>
+                            <input type="text" name="title" id="title">
+                        </div>
+                        <div class="form-row">
+                            <label for="description">Description</label>
+                            <textarea name="description" id="description" cols="30" rows="10"></textarea>
+                        </div>
+                        <div class="form-row">
+                            <label for="location">Location</label>
+                            <input type="text" name="location" id="location">
+                        </div>
+                        <div class="form-row">
+                            <label for="time">Time</label>
+                            <input type="text" name="time" id="time">
+                        </div>
+                        <div class="form-row">
+                            <button type="submit">Create</button>
+                        </div>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+        <footer>
+            <div class="footer-content">
+                <p>Website designed and developed by <span>Luqee Creations</span>.</p>
+            </div>
+        </footer>
+      </div>
+      <script src="../static/js/index.js"></script>
+    </body>
+</html>
