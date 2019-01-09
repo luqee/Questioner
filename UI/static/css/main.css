@@ -170,6 +170,7 @@ footer{
 /* Style the meetup detail page */
 .meetup-details{
     display: flex;
+    margin-bottom: 10px;
 }
 .meetup-details .meetup-container{
     flex-basis: 80%;
@@ -212,4 +213,25 @@ footer{
 }
 .meetup-header .rsvp-area button{
     width: 100px;
+}
+
+.meetup-container .ask-question .container{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.ask-question span{
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+.ask-question textarea{
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.ask-question button{
+    width: fit-content;
+    margin: 0 auto;
 }
