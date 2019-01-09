@@ -314,3 +314,48 @@ footer{
     font-weight: bold;
     color: #333
 }
+/* admin dash */
+.admin-dash{
+    display: flex;
+    width: 75%;
+    /* margin: 0 auto; */
+}
+.admin-dash .side-menu{
+    flex-basis: 25%;
+}
+.admin-dash .menu li{
+    list-style-type: none;
+    background-color: #0095ff;
+    border-bottom: 2px solid #14171a;
+    padding: 10px;
+}
+.admin-dash .menu a{
+    text-decoration: none;
+    display: block;
+}
+.admin-dash .meetups{
+    flex-basis: 75%;
+    margin-left: 30px;
+}
+.admin-dash .meetups > h3{
+    text-align: center;
+    font-size: 1.3em
+}
+.admin-dash .meetups  img{
+    width: 100px;
+    height: 100px;
+    
+}
+.admin-dash .meetup{
+    display: flex;
+    border-bottom: 2px solid #0095ff;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.meetup .details{
+    padding-left: 20px;
+}
+.meetup .actions{
+    margin-left: auto;
+    align-self: center;
+}
