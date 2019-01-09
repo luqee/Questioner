@@ -235,3 +235,17 @@ footer{
     width: fit-content;
     margin: 0 auto;
 }
+.meetup-questions {
+    margin-bottom: 10px;
+    width: 70%;
+}
+.meetup-questions .question{
+    margin-bottom: 20px;
+}
+.meetup-questions .question .header span.name{
+    font-weight: bold;
+}
+.question .header span{
+    display: block;
+    font-size: 85%;
+}
