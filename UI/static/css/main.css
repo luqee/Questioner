@@ -279,3 +279,38 @@ footer{
     width: fit-content;
     margin: 0 auto;
 }
+
+.profile-header .container{
+    background-color: #0095ff;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+.profile-header .info{
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+    color: #fff;
+}
+.info .details{
+    margin-left: 20px;
+    font-size: 1.35em;
+    line-height: 1.5em;
+}
+.question-feed {
+    margin-left: 30px;
+}
+.question-feed .question{
+    margin-bottom: 30px;
+}
+.question-feed .feed-head{
+    display: block;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+.question-feed a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #333
+}
